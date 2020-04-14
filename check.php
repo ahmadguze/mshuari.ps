@@ -4,7 +4,6 @@
 $servername="127.0.0.1";
 session_start();
 $username="root";
-
 $password="root";
 $dbname = "mshwari.ps";
 $conn= new mysqli($servername,$username,$password,$dbname);
